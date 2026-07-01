@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="GreetingWebAppCore:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/GreetingWebAppCore_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GreetingWebAppCore" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2 (1) (1).jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-6.1.6 (1) (1).jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-6.1.6 (1) (1).jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-6.1.6 (1) (1).jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-6.1.6 (1) (1).jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-6.1.6 (1) (1).jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-6.1.6 (1) (1).jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="GreetingWebAppCore/web/Web" />
+    </root>
+  </artifact>
+</component>
